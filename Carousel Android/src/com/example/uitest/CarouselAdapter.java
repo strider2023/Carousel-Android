@@ -3,7 +3,6 @@ package com.example.uitest;
 import java.util.ArrayList;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -42,7 +41,7 @@ public class  CarouselAdapter  extends BaseAdapter {
 		ImageView mImage= new ImageView(mContext);
 		mImage.setImageResource(mData.get(arg0));
 		mImage.setPadding(5, 5, 5, 5);
-		mImage.setBackgroundColor(Color.BLACK);
+		mImage.setBackgroundResource(R.drawable.slider_bg);
 		return mImage;
 	}
     

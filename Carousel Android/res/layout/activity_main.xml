@@ -2,11 +2,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity" 
+    android:background="@android:color/darker_gray">
 
-    <com.touchmenotapps.carousel.simple.CarouselLayout 
+    <com.touchmenotapps.carousel.simple.HorizontalCarouselLayout 
         android:id="@+id/carousel_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"/> 
+    
+    <!-- <com.touchmenotapps.carousel.simple.VerticalCarouselLayout 
+        android:id="@+id/carousel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>  -->
     
 </RelativeLayout>
