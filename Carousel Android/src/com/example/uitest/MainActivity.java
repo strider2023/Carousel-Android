@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		mAdapter = new CarouselAdapter(this);
 		mAdapter.setData(mData);
 		mCarousel = (HorizontalCarouselLayout) findViewById(R.id.carousel_layout);
-		mStyle = new HorizontalCarouselStyle(this, HorizontalCarouselStyle.STYLE_ZOOMED_OUT);		
+		mStyle = new HorizontalCarouselStyle(this, HorizontalCarouselStyle.NO_STYLE);		
 		mCarousel.setStyle(mStyle);
 		mCarousel.setAdapter(mAdapter);
 				
